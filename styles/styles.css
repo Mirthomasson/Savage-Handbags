@@ -80,7 +80,7 @@ ul {
 
 .banner::before {
   content: "";
-  background-image: url("./images/banner-img.jpeg");
+  background-image: url("/images/banner-img.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
