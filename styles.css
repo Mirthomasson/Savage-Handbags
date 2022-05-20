@@ -274,7 +274,7 @@ text-shadow: 2px 2px 2px #5B3F6B;
   color: linen;
   justify-content: center;
   padding: 5em;
-  background-image: url(./images/lv-background.webp);
+  background-image: url(/images/lv-background.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -284,14 +284,13 @@ text-shadow: 2px 2px 2px #5B3F6B;
   padding-top: 5em;
   padding-left: 5em;
   background-color: rgba(62, 57, 57, 0.715);
-  border-radius: 0 .75em .75em 0;
+  border-radius: .75em;
 }
 
 .louis-bio img {
   border-radius: .75em;
   height: 100%;
   width: auto;
-  border-radius: .75em 0 0 .75em;
 }
 
 @media only screen and (max-width: 600px) {
@@ -311,10 +310,6 @@ text-shadow: 2px 2px 2px #5B3F6B;
   .louis-bio p {
     text-align: center;
     padding: 2em 0;
-    border-radius: 0 0 .75em .75em;
-  }
-  .louis-bio img {
-    border-radius: .75em .75em 0 0;
   }
 }
 
@@ -333,7 +328,6 @@ text-shadow: 2px 2px 2px #5B3F6B;
   .louis-bio p {
     text-align: center;
     padding: 2em .5em;
-    border-radius: 0 0 .75em .75em;
   }
   .louis-bio {
     display: grid;
@@ -341,7 +335,6 @@ text-shadow: 2px 2px 2px #5B3F6B;
   .louis-bio img {
     width: 100%;
     height: 100%;
-    border-radius: .75em .75em 0 0;
   }
 }
 
@@ -356,7 +349,7 @@ text-shadow: 2px 2px 2px #5B3F6B;
 
 .coach-banner::before {
   content: "";
-  background-image: url(./images/coach-banner.webp);
+  background-image: url(/images/coach-banner.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -408,7 +401,7 @@ text-shadow: 2px 2px 2px #5B3F6B;
 
 .coach-bio::before {
   content: "";
-  background-image: url(./images/coach-pattern.jpeg);
+  background-image: url(/images/coach-pattern.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -424,12 +417,12 @@ text-shadow: 2px 2px 2px #5B3F6B;
   padding: 4em;
   text-align: center;
   background-color: rgba(62, 57, 57, 0.715);
-  border-radius: 0 .75em .75em 0;
+  border-radius: .75em;
   position: relative;
 }
 
 .coach-bio img {
-  border-radius: .75em 0 0 .75em;
+  border-radius: .75em;
   height: auto;
   width: 100%;
   max-width: 50vh;
@@ -458,11 +451,9 @@ text-shadow: 2px 2px 2px #5B3F6B;
   .coach-bio img {
     max-width: 100vh;
     height: 100%;
-    border-radius: .75em .75em 0 0;
   }
   .coach-bio p {
     padding: 1em 0 1em 0;
-    border-radius: 0 0 .75em .75em;
   }
 }
 
@@ -481,11 +472,9 @@ text-shadow: 2px 2px 2px #5B3F6B;
   .coach-bio img {
     max-width: 100vh;
     height: 100%;
-    border-radius: .75em .75em 0 0;
   }
   .coach-bio p {
     padding: 1em;
-    border-radius: 0 0 .75em .75em;
   }
 
 }
@@ -499,7 +488,7 @@ text-shadow: 2px 2px 2px #5B3F6B;
 }
 .contact-title::before {
   content: "";
-  background-image: url(./images/contact-geode.jpeg);
+  background-image: url(/images/contact-geode.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
