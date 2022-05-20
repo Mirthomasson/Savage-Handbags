@@ -80,7 +80,7 @@ ul {
 
 .banner::before {
   content: "";
-  background-image: url(/images/banner-img.jpeg);
+  background-image: url(./images/banner-img.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -173,7 +173,7 @@ ul {
 
 .home-article::before {
   content: "";
-  background-image: url(/images/definition-background.webp);
+  background-image: url(./images/definition-background.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -211,7 +211,7 @@ ul {
 
 .louis-banner::before {
   content: "";
-  background-image: url(/images/louis-trunk.webp);
+  background-image: url(./images/louis-trunk.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
